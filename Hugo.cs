@@ -17,9 +17,6 @@ class Program
                         System.Threading.Thread.Sleep(1000);
                         c++;
                         break;
-                    default:
-                        Console.Write(input[i]);
-                        break;
                 }
             }
             Console.WriteLine((char)c);
